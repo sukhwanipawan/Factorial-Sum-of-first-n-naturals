@@ -7,7 +7,6 @@ def sum(A):
     else:
         add = A + sum(A-1)
         return add
-    print('The sum uptil 1 is', add)
 def factorial(A):
     fact = 0
     if A == 1:
